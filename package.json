@@ -1,0 +1,27 @@
+{
+  "name": "biswajit_cv",
+  "version": "0.0.1",
+  "description": "A developer with passion to achieve impossible. Passionate to make things intresting",
+  "keywords": [
+    "Web-Dev",
+    "Fullstack-Dev",
+    "Frontend-Engginer",
+    "Frontend-Dev",
+    "Backend-Dev",
+    "PHP",
+    "Angular",
+    "HTML5",
+    "CSS3"
+  ],
+  "license": "MIT",
+  "author": "Biswajit Patra",
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html --open",
+    "start": "npm run build && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
